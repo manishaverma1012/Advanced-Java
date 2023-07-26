@@ -1,4 +1,4 @@
-package com.java;
+package com.java.serialization;
 import java.io.Serializable;
 public class Student implements Serializable{
     int id;

@@ -1,4 +1,5 @@
-package com.java;
+package com.java.serialization;
+
 import java.io.*;
 
 public class Main {
