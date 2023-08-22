@@ -1,5 +1,11 @@
 package com.java.Java8StreamAPI;
 
+import java.util.List;
+import java.util.Random;
+import java.util.stream.IntStream;
+
+import static java.util.stream.Collectors.toList;
+
 public class Stream_API {
 //    Q1. Print the avg age of all the people
 //    Ans1: Double result= people.stream().collect(Collectors.averagingInt(Person::getAge));
@@ -45,6 +51,8 @@ public static boolean containsVowel(String name)
 
     //q8Create a list of 20 random integers in the range 0 - 1000 using Java 8 streams
 
-
+//    Random rd=new Random();
+//    List<Integer> randomInteger= IntStream.range(0, 20).map(i->rd.nextInt(1001)).boxed().collect(toList());//boxed is used to convert int to integers
+//        System.out.println(randomInteger);
 
 }
